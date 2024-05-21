@@ -68,14 +68,9 @@ white = "\033[0;39m"
 
 chat_history = []
 print(f"{yellow}---------------------------------------------------------------------------------")
-print('Welcome to the DocBot. You are now ready to start interacting with your documents')
-print('---------------------------------------------------------------------------------')
+print('Conversation Starts')
 while True:
     query = input(f"{green}Prompt: ")
-    # query = "Jacky is a Computer Science student who has taken the following courses:\
-    #         Introduction to Computer Science, Data Structures, Algorithms, Operating Systems, and Computer Networks.\
-    #         Has he completed the requirements for the Computer Science major?\
-    #         If not, what courses does he still need to take?"
     if query == "exit" or query == "quit" or query == "q" or query == "f":
         print('Exiting')
         sys.exit()
